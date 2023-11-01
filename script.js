@@ -5,15 +5,15 @@ function FizzBuzz(i) {
   for (let i = 1; i <= 100; i++) {
     if (i % 3 == 0 && i % 5 == 0) {
       console.log("FizzBuzz");
-      outputDiv.innerHTML += "FizzBuzz<br>";
+      outputDiv.innerHTML += i + " Multiple de 3 et de 5 (FizzBuzz)<br>";
     } else {
       if (i % 5 == 0) {
         console.log("Buzz");
-        outputDiv.innerHTML += "Buzz<br>";
+        outputDiv.innerHTML += i + " Multiple de 5 (Buzz)<br>";
       } else {
         if (i % 3 == 0) {
           console.log("Fizz");
-          outputDiv.innerHTML += "Fizz<br>";
+          outputDiv.innerHTML += i + " Multiple de 3 (Fizz)<br>";
         } else {
           console.log(i);
           outputDiv.innerHTML += i + "<br>";
