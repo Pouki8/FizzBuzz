@@ -15,6 +15,4 @@ function FizzBuzz(i) {
       }
     }
   }
-  i.innerText = "${i}";
 }
-console.log(FizzBuzz(i));
